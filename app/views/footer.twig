@@ -1,0 +1,13 @@
+{#footer.twig#}
+<link rel="stylesheet" href="/app/assets/css/markdown.css" />
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/app/assets/js/showdown.js"></script>
+<script src="/app/assets/js/showdown-table.js"></script>
+<script>
+    var converter = new showdown.Converter({ extensions: ['table'] })
+    $("#markdown-body").ready(function () {
+        $("#markdown-body").html(converter.makeHtml($("#markdown-body").text()))
+    })
+</script>
+</body>
+</html>

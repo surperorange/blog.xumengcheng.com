@@ -1,0 +1,28 @@
+<div class="body">
+    <div class="header banner-background" style="background-image: url('{{ banner }}');">
+
+    </div>
+
+    <div class="main">
+        <ul class="content no-margin no-padding">
+            <div>
+                {% for item in articlelist %}
+                    <a href="/article/index/{{ item.id }}" class="article">
+                        <img src="{{ item.thumbnail }}" class="thumbnail"
+                             alt="{{ item.title }}"/>
+                        <div class="black-mask">
+                            <div class="article-info">
+                                <h3 class="article-title">{{ item.title }}</h3>
+                                <div class="article-date">{{ item.create_time }}</div>
+                                <div class="am-show-sm">
+                                    <span class="hole-btn article-btn">阅读全文</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </ul>
+    </div>
+</div>
+
