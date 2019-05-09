@@ -3,12 +3,6 @@
     height: 100%;
     min-height: 100%;
 }
-p{
-    font-size: 1.4rem;
-    line-height: 2.8rem;
-    font-weight: 200;
-    font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
-}
 .header{
     display: flex;
     justify-content:center;
@@ -103,6 +97,12 @@ a:hover, a:focus {
         width: 100%;
         background: rgba(0,0,0,0.8);
     }
+    p{
+        font-size: 2rem;
+        line-height: 2.8rem;
+        font-weight: 200;
+        font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
+    }
 }
 @media only screen and (min-width:640px) {
     .header{
@@ -173,6 +173,12 @@ a:hover, a:focus {
         display: block;
         width: 100%;
         background: linear-gradient(transparent,#111);
+    }
+    p{
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        font-weight: 200;
+        font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
     }
 }
 /*基础辅助*/
