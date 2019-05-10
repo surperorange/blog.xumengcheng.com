@@ -177,8 +177,9 @@ a:hover, a:focus {
     p{
         font-size: 1.8rem;
         line-height: 2.8rem;
-        font-weight: 200;
-        font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing:.1rem;
+        color: #5c5c5c;
     }
 }
 /*基础辅助*/
