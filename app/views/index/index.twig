@@ -7,9 +7,7 @@
         <ul class="content no-margin no-padding">
             <div>
                 {% for item in articlelist %}
-                    <a href="/article/index/{{ item.id }}" class="article">
-                        <img src="{{ item.thumbnail }}" class="thumbnail"
-                             alt="{{ item.title }}"/>
+                    <a href="/article/index/{{ item.id }}" class="article" style="background-image: url('{{ item.thumbnail }}')">
                         <div class="black-mask">
                             <div class="article-info">
                                 <h3 class="article-title">{{ item.title }}</h3>

@@ -65,6 +65,7 @@ a:hover, a:focus {
     justify-content: center;
     align-content: center;
 }
+
 @media only screen and (min-width:0px) {
     .header{
         height: 60%;
@@ -81,7 +82,10 @@ a:hover, a:focus {
         width: 100%;
         color: #fff;
         position: relative;
-        height: 30em;
+        height: 35em;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
     .article-info{
         display: flex;
@@ -104,8 +108,8 @@ a:hover, a:focus {
         background: rgba(0,0,0,0.8);
     }
     p{
-        font-size: 2rem;
-        line-height: 2.8rem;
+        font-size: 3rem;
+        line-height: 4rem;
         font-weight: 200;
         font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
     }
@@ -115,10 +119,10 @@ a:hover, a:focus {
         height: 60%;
     }
     .banner{
-        padding: 2rem;
+
     }
     .banner-title{
-        font-size: 3rem;
+        font-size: 3em;
         font-weight: lighter;
     }
     .article{
@@ -126,17 +130,35 @@ a:hover, a:focus {
         width: 100%;
         color: #fff;
         position: relative;
+        margin: 1.5rem auto;
+        overflow: hidden;
         height: 30em;
-        margin: 2rem auto;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
     .article-info{
         min-height: 10rem;
     }
     .content{
-        width: 60%;
+        width: 80%;
     }
     .article-title{
         font-size: 3rem;
+    }
+    .black-mask{
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        background: linear-gradient(transparent,#111);
+    }
+    p{
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        font-weight: 400;
+        letter-spacing:.1rem;
+        color: #5c5c5c;
     }
 }
 @media only screen and (min-width:1024px) {
@@ -158,12 +180,15 @@ a:hover, a:focus {
         margin: 1.5rem auto;
         overflow: hidden;
         height: 30em;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
     .article-info{
         min-height: 10rem;
     }
     .content{
-        width: 45%;
+        width: 80rem;
     }
     .article-title{
         font-size: 3rem;
