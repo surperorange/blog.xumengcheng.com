@@ -48,3 +48,9 @@ https://blog.xumengcheng.com
 
 
 - 大功告成！
+
+### #赞赏
+
+![赞赏码](https://xinzhuye-1251545065.cos.ap-beijing.myqcloud.com/yyq5ccff3c1d8b84/object/2019/05/10/content-0f0onm50kn18sospssik0aagrk.jpg)
+
+感谢赞赏，赞赏10元以上可帮忙部署，请注意准备好php7.0以上的环境以及申请好云引擎。
