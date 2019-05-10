@@ -31,14 +31,15 @@
 .main{
     display: flex;
     justify-content: center;
-}
-.main img{
-    width: 100%;
+    overflow: hidden;
 }
 
 .post{
     margin-top: 2rem;
     padding: 2rem;
+}
+.post img{
+    width: 100%;
 }
 a:hover, a:focus {
     color: #fff;
@@ -74,15 +75,14 @@ a:hover, a:focus {
         width: 100%;
         color: #fff;
         position: relative;
-        min-height: 10em;
-        height: 60rem;
+        height: 30em;
     }
     .article-info{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 2rem 4rem;
-        min-height: 19rem;
+        min-height: 10rem;
     }
     .content{
         width: 100%;
@@ -120,17 +120,14 @@ a:hover, a:focus {
         width: 100%;
         color: #fff;
         position: relative;
-        min-height: 10em;
-        height: 40rem;
+        height: 30em;
+        margin: 2rem auto;
     }
     .article-info{
         min-height: 10rem;
     }
     .content{
         width: 60%;
-    }
-    .article{
-        margin: 2rem auto;
     }
     .article-title{
         font-size: 3rem;
@@ -152,17 +149,15 @@ a:hover, a:focus {
         width: 100%;
         color: #fff;
         position: relative;
-        min-height: 10em;
-        height: 40rem;
+        margin: 1.5rem auto;
+        overflow: hidden;
+        height: 30em;
     }
     .article-info{
         min-height: 10rem;
     }
     .content{
         width: 45%;
-    }
-    .article{
-        margin: 1.5rem auto;
     }
     .article-title{
         font-size: 3rem;
