@@ -59,6 +59,12 @@ a:hover, a:focus {
     border-radius: 0;
     background: none;
 }
+.foot{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 @media only screen and (min-width:0px) {
     .header{
         height: 60%;
