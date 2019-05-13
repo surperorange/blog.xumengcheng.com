@@ -7,6 +7,14 @@
     display: flex;
     justify-content:center;
 }
+.description h3{
+    font-weight: 300 !important;
+    color: white;
+}
+.description p{
+    font-weight: 300 !important;
+    color: white;
+}
 .banner{
     padding: 1rem auto;
 }
@@ -70,6 +78,16 @@ a:hover, a:focus {
     .header{
         height: 60%;
     }
+    .description{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -600px;
+        margin-top: -200px;
+        width: 1200px;
+        font-size: 36px;
+        text-align: center;
+    }
     .banner{
         padding: 2rem;
     }
@@ -113,10 +131,23 @@ a:hover, a:focus {
         font-weight: 200;
         font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
     }
+    * + h1, * + h2, * + h3, * + h4, * + h5, * + h6{
+        margin: 1rem 0rem;
+    }
 }
 @media only screen and (min-width:640px) {
     .header{
         height: 60%;
+    }
+    .description{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -600px;
+        margin-top: -200px;
+        width: 1200px;
+        font-size: 36px;
+        text-align: center;
     }
     .banner{
 
@@ -164,6 +195,16 @@ a:hover, a:focus {
 @media only screen and (min-width:1024px) {
     .header{
         height: 60%;
+    }
+    .description{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -600px;
+        margin-top: -200px;
+        width: 1200px;
+        font-size: 36px;
+        text-align: center;
     }
     .banner{
 

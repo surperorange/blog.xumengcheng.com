@@ -1,6 +1,9 @@
 
     <div class="header banner-background" style="background-image: url('{{ banner }}');">
-
+        <div class="description">
+            <h3>{{ description }}</h3>
+            <p>{{ title }}</p>
+        </div>
     </div>
 
     <div class="main">
@@ -10,8 +13,9 @@
                     <a href="/article/index/{{ item.id }}" class="article" style="background-image: url('{{ item.thumbnail }}')">
                         <div class="black-mask">
                             <div class="article-info">
+                                <div class="article-date am-hide-lg-only">{{ item.create_time | slice(0,10) }}</div>
                                 <h3 class="article-title">{{ item.title }}</h3>
-                                <div class="article-date">{{ item.create_time }}</div>
+                                <div class="article-date am-show-lg-only">{{ item.create_time | slice(0,10) }}</div>
                                 <div class="am-show-sm">
                                     <span class="hole-btn article-btn">阅读全文</span>
                                 </div>
