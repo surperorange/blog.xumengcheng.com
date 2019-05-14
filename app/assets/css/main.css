@@ -82,9 +82,9 @@ a:hover, a:focus {
         position: absolute;
         left: 50%;
         top: 50%;
-        margin-left: -600px;
-        margin-top: -200px;
-        width: 1200px;
+        margin-left: -50%;
+        margin-top: -25rem;
+        width: 100%;
         font-size: 36px;
         text-align: center;
     }
@@ -143,9 +143,9 @@ a:hover, a:focus {
         position: absolute;
         left: 50%;
         top: 50%;
-        margin-left: -600px;
-        margin-top: -200px;
-        width: 1200px;
+        margin-left: -50%;
+        margin-top: -25rem;
+        width: 100%;
         font-size: 36px;
         text-align: center;
     }
@@ -200,9 +200,9 @@ a:hover, a:focus {
         position: absolute;
         left: 50%;
         top: 50%;
-        margin-left: -600px;
-        margin-top: -200px;
-        width: 1200px;
+        margin-left: -50%;
+        margin-top: -25rem;
+        width: 100%;
         font-size: 36px;
         text-align: center;
     }
