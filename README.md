@@ -4,6 +4,8 @@
 
 https://blog.xumengcheng.com
 
+![茗记截图](https://github.com/surperorange/remember-blog/blob/master/screenshot.png)
+
 ### #前言
 
 欢迎使用茗记博客系统，在安装之前我想先说说它诞生的意义。
