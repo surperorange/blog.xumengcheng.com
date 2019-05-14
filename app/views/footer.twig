@@ -1,6 +1,10 @@
 {#footer.twig#}
     <div class="foot">
-        <div>{{ bottom }}</div>
+        <div>
+            {% autoescape false %}
+                {{ bottom }}
+            {% endautoescape %}
+        </div>
     </div>
 </div>
 <link rel="stylesheet" href="/app/assets/css/markdown.css" />
